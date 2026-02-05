@@ -25,8 +25,8 @@ CSV_HEADER = "temp_c,temp_f,pressure_hpa,humidity"
 # INITIALIZE SENSOR
 # ----------------------
 i2c = busio.I2C(board.SCL, board.SDA)
-sensor = bme280.Adafruit_BME280_I2C(i2c)
-sensor.sea_level_pressure = 1013.25  # optional calibration
+sensor = bme280.Adafruit_BME280_I2C(i2c, address=0x76)
+sensor.sea_level_pressure = 1013.25
 
 # ----------------------
 # HELPER FUNCTIONS
