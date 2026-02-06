@@ -1,0 +1,3 @@
+*.sql-shm
+*.sql-wal
+*.sql-journal
