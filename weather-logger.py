@@ -13,7 +13,7 @@ import adafruit_bme280.basic as bme280
 # ----------------------
 # CONFIGURATION
 # ----------------------
-BASE_DIR = Path.home() / "RPi_Compact-Weather-Station"
+BASE_DIR = Path.home() / "GitRepos" / "RPi_Compact-Weather-Station"
 LOG_DIR = BASE_DIR / "logs"
 DB_PATH = LOG_DIR / "weather.db"
 
