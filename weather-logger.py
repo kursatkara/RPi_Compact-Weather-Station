@@ -172,7 +172,7 @@ def export_last_week():
 
 def push_git():
     now = datetime.now()
-    export_last_day()
+    # export_last_day() -- Removing for general cleanliness
     export_last_week()
 
     if not is_online():
