@@ -83,3 +83,5 @@
 2026-02-06T22:30:00 [CSV WEEKLY] Updated (29 rows)
 2026-02-06T22:30:00 [GIT ERROR] Command '['git', '-C', '/home/akara/GitRepos/RPi_Compact-Weather-Station', 'commit', '-m', 'Weather DB update 2026-02-06 22:30']' returned non-zero exit status 1.
 2026-02-06T22:30:01 [GIT] Push successful
+2026-02-06T23:00:00 [CSV DAY] Updated (1647 rows)
+2026-02-06T23:00:00 [CSV WEEKLY] Updated (29 rows)
