@@ -101,3 +101,7 @@
 2026-02-07T00:00:00 [CSV WEEKLY] Updated (30 rows)
 2026-02-07T00:00:00 [DB] Old data purged
 2026-02-07T00:00:00 [CSV WEEKLY] Updated (30 rows)
+2026-02-07T00:00:01 [GIT ERROR] Command '['git', '-C', '/home/akara/GitRepos/RPi_Compact-Weather-Station', 'push']' returned non-zero exit status 1.
+2026-02-07T00:00:01 [GIT ERROR] Command '['git', '-C', '/home/akara/GitRepos/RPi_Compact-Weather-Station', 'push']' returned non-zero exit status 1.
+2026-02-07T00:00:01 [GIT ERROR] Command '['git', '-C', '/home/akara/GitRepos/RPi_Compact-Weather-Station', 'push']' returned non-zero exit status 1.
+2026-02-07T00:00:09 Logger stopped cleanly
