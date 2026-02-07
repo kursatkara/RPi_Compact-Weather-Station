@@ -24,7 +24,8 @@ DB_BATCH_SIZE = 5               # max samples before forced commit
 GIT_PUSH_INTERVAL_MINUTES = 30
 RETENTION_DAYS = 365
 
-CSV_EXPORT_DIR = LOG_BASE.parent / "docs" / "data"
+CSV_EXPORT_DIR = Path.home() / "GitRepos" / "RPi_Compact-Weather-Station" / "docs" / "data"
+
 CSV_LAST_WEEK = CSV_EXPORT_DIR / "weather-last-week.csv"
 CSV_LAST_DAY = CSV_EXPORT_DIR / "weather-last-day.csv"
 
